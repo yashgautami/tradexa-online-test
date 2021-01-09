@@ -1,0 +1,8 @@
+<div>
+    <input (ngModelChange)="onSearchChange($event)" [(ngModel)]="searchText" placeholder="Search User" />
+</div>
+<br />
+
+<div>
+    Selected User: {{selectedUser ? selectedUser.name : 'Select Any User'}}
+</div>

@@ -1,0 +1,24 @@
+table {
+    tr {
+        cursor: pointer;
+        th {
+            z-index: 1;
+            padding: 18px 10px 15px 10px;
+            border-bottom: 1px solid rgb(233, 232, 232);
+            background: white;
+            box-shadow: inset 0px -8px 4px -10px #7c7c7c;
+            text-align: left;
+        }
+
+        td {
+            padding: 7px 10px;
+            font-size: 96%;
+            color: #000;
+            border-bottom: 1px solid rgb(233, 232, 232);
+        }
+    }
+
+    .selected-row {
+        background: #f1f1f1;
+    }
+}
